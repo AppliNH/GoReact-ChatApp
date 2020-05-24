@@ -1,6 +1,8 @@
 # GoReact-ChatApp
+<div align="center">
+    <img src= "https://i.ibb.co/Ph8LBWH/Annotation-2020-05-24-210246.png"/>
+</div>
 
-![](https://i.ibb.co/Ph8LBWH/Annotation-2020-05-24-210246.png)
 
 ## What is it
 

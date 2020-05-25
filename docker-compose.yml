@@ -27,8 +27,3 @@ services:
 
 networks:
   app-network:
-    ipam:
-      driver:
-        default
-      config:
-        - subnet: 172.60.0.0/16

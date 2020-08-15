@@ -10,7 +10,8 @@ services:
       - app-network
 
   socketio:
-    build: ./socketio/
+    # build: ./socketio/
+    image: docker.pkg.github.com/applinh/goreact-chatapp/chatapp-client:latest
     container_name: socketio
     ports:
       - 8000:8000
@@ -18,7 +19,8 @@ services:
       - app-network
 
   client:
-    build: ./client/
+    # build: ./client/
+    image: docker.pkg.github.com/applinh/goreact-chatapp/chatapp-socketio:latest
     ports:
       - 80:80
     container_name: client

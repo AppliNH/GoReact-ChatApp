@@ -34,6 +34,6 @@ jobs:
       with:
         # Access token which is used to deploy the image to the repository.
         accessToken:  ${{ secrets.GITHUB_TOKEN }}
-        context: ./chatapp-socketio
+        context: ./socketio
         # Name for the docker image
         imageName: chatapp-socketio
